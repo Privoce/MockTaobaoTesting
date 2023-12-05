@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6C8DE582B1FEFAA0081F75C /* MockTaobaoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE572B1FEFAA0081F75C /* MockTaobaoApp.swift */; };
+		D6C8DE5A2B1FEFAA0081F75C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE592B1FEFAA0081F75C /* ContentView.swift */; };
+		D6C8DE5C2B1FEFAB0081F75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C8DE5B2B1FEFAB0081F75C /* Assets.xcassets */; };
+		D6C8DE602B1FEFAB0081F75C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C8DE5F2B1FEFAB0081F75C /* Preview Assets.xcassets */; };
+		D6C8DE6A2B1FEFAC0081F75C /* MockTaobaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE692B1FEFAC0081F75C /* MockTaobaoTests.swift */; };
+		D6C8DE742B1FEFAC0081F75C /* MockTaobaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE732B1FEFAC0081F75C /* MockTaobaoUITests.swift */; };
+		D6C8DE762B1FEFAC0081F75C /* MockTaobaoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE752B1FEFAC0081F75C /* MockTaobaoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6C8DE662B1FEFAC0081F75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C8DE4C2B1FEFAA0081F75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C8DE532B1FEFAA0081F75C;
+			remoteInfo = MockTaobao;
+		};
+		D6C8DE702B1FEFAC0081F75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C8DE4C2B1FEFAA0081F75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C8DE532B1FEFAA0081F75C;
+			remoteInfo = MockTaobao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6C8DE542B1FEFAA0081F75C /* MockTaobao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockTaobao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C8DE572B1FEFAA0081F75C /* MockTaobaoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTaobaoApp.swift; sourceTree = "<group>"; };
+		D6C8DE592B1FEFAA0081F75C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6C8DE5B2B1FEFAB0081F75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6C8DE5D2B1FEFAB0081F75C /* MockTaobao.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MockTaobao.entitlements; sourceTree = "<group>"; };
+		D6C8DE5F2B1FEFAB0081F75C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6C8DE652B1FEFAC0081F75C /* MockTaobaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockTaobaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C8DE692B1FEFAC0081F75C /* MockTaobaoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTaobaoTests.swift; sourceTree = "<group>"; };
+		D6C8DE6F2B1FEFAC0081F75C /* MockTaobaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockTaobaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C8DE732B1FEFAC0081F75C /* MockTaobaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTaobaoUITests.swift; sourceTree = "<group>"; };
+		D6C8DE752B1FEFAC0081F75C /* MockTaobaoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTaobaoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6C8DE512B1FEFAA0081F75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C8DE622B1FEFAC0081F75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C8DE6C2B1FEFAC0081F75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6C8DE4B2B1FEFAA0081F75C = {
+			isa = PBXGroup;
+			children = (
+				D6C8DE562B1FEFAA0081F75C /* MockTaobao */,
+				D6C8DE682B1FEFAC0081F75C /* MockTaobaoTests */,
+				D6C8DE722B1FEFAC0081F75C /* MockTaobaoUITests */,
+				D6C8DE552B1FEFAA0081F75C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6C8DE552B1FEFAA0081F75C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8DE542B1FEFAA0081F75C /* MockTaobao.app */,
+				D6C8DE652B1FEFAC0081F75C /* MockTaobaoTests.xctest */,
+				D6C8DE6F2B1FEFAC0081F75C /* MockTaobaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6C8DE562B1FEFAA0081F75C /* MockTaobao */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8DE572B1FEFAA0081F75C /* MockTaobaoApp.swift */,
+				D6C8DE592B1FEFAA0081F75C /* ContentView.swift */,
+				D6C8DE5B2B1FEFAB0081F75C /* Assets.xcassets */,
+				D6C8DE5D2B1FEFAB0081F75C /* MockTaobao.entitlements */,
+				D6C8DE5E2B1FEFAB0081F75C /* Preview Content */,
+			);
+			path = MockTaobao;
+			sourceTree = "<group>";
+		};
+		D6C8DE5E2B1FEFAB0081F75C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8DE5F2B1FEFAB0081F75C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6C8DE682B1FEFAC0081F75C /* MockTaobaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8DE692B1FEFAC0081F75C /* MockTaobaoTests.swift */,
+			);
+			path = MockTaobaoTests;
+			sourceTree = "<group>";
+		};
+		D6C8DE722B1FEFAC0081F75C /* MockTaobaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8DE732B1FEFAC0081F75C /* MockTaobaoUITests.swift */,
+				D6C8DE752B1FEFAC0081F75C /* MockTaobaoUITestsLaunchTests.swift */,
+			);
+			path = MockTaobaoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6C8DE532B1FEFAA0081F75C /* MockTaobao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C8DE792B1FEFAC0081F75C /* Build configuration list for PBXNativeTarget "MockTaobao" */;
+			buildPhases = (
+				D6C8DE502B1FEFAA0081F75C /* Sources */,
+				D6C8DE512B1FEFAA0081F75C /* Frameworks */,
+				D6C8DE522B1FEFAA0081F75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockTaobao;
+			productName = MockTaobao;
+			productReference = D6C8DE542B1FEFAA0081F75C /* MockTaobao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6C8DE642B1FEFAC0081F75C /* MockTaobaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C8DE7C2B1FEFAC0081F75C /* Build configuration list for PBXNativeTarget "MockTaobaoTests" */;
+			buildPhases = (
+				D6C8DE612B1FEFAC0081F75C /* Sources */,
+				D6C8DE622B1FEFAC0081F75C /* Frameworks */,
+				D6C8DE632B1FEFAC0081F75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C8DE672B1FEFAC0081F75C /* PBXTargetDependency */,
+			);
+			name = MockTaobaoTests;
+			productName = MockTaobaoTests;
+			productReference = D6C8DE652B1FEFAC0081F75C /* MockTaobaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6C8DE6E2B1FEFAC0081F75C /* MockTaobaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C8DE7F2B1FEFAC0081F75C /* Build configuration list for PBXNativeTarget "MockTaobaoUITests" */;
+			buildPhases = (
+				D6C8DE6B2B1FEFAC0081F75C /* Sources */,
+				D6C8DE6C2B1FEFAC0081F75C /* Frameworks */,
+				D6C8DE6D2B1FEFAC0081F75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C8DE712B1FEFAC0081F75C /* PBXTargetDependency */,
+			);
+			name = MockTaobaoUITests;
+			productName = MockTaobaoUITests;
+			productReference = D6C8DE6F2B1FEFAC0081F75C /* MockTaobaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C8DE4C2B1FEFAA0081F75C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D6C8DE532B1FEFAA0081F75C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D6C8DE642B1FEFAC0081F75C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D6C8DE532B1FEFAA0081F75C;
+					};
+					D6C8DE6E2B1FEFAC0081F75C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D6C8DE532B1FEFAA0081F75C;
+					};
+				};
+			};
+			buildConfigurationList = D6C8DE4F2B1FEFAA0081F75C /* Build configuration list for PBXProject "MockTaobao" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6C8DE4B2B1FEFAA0081F75C;
+			productRefGroup = D6C8DE552B1FEFAA0081F75C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6C8DE532B1FEFAA0081F75C /* MockTaobao */,
+				D6C8DE642B1FEFAC0081F75C /* MockTaobaoTests */,
+				D6C8DE6E2B1FEFAC0081F75C /* MockTaobaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6C8DE522B1FEFAA0081F75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C8DE602B1FEFAB0081F75C /* Preview Assets.xcassets in Resources */,
+				D6C8DE5C2B1FEFAB0081F75C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C8DE632B1FEFAC0081F75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C8DE6D2B1FEFAC0081F75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6C8DE502B1FEFAA0081F75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C8DE5A2B1FEFAA0081F75C /* ContentView.swift in Sources */,
+				D6C8DE582B1FEFAA0081F75C /* MockTaobaoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C8DE612B1FEFAC0081F75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C8DE6A2B1FEFAC0081F75C /* MockTaobaoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C8DE6B2B1FEFAC0081F75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C8DE762B1FEFAC0081F75C /* MockTaobaoUITestsLaunchTests.swift in Sources */,
+				D6C8DE742B1FEFAC0081F75C /* MockTaobaoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6C8DE672B1FEFAC0081F75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C8DE532B1FEFAA0081F75C /* MockTaobao */;
+			targetProxy = D6C8DE662B1FEFAC0081F75C /* PBXContainerItemProxy */;
+		};
+		D6C8DE712B1FEFAC0081F75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C8DE532B1FEFAA0081F75C /* MockTaobao */;
+			targetProxy = D6C8DE702B1FEFAC0081F75C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6C8DE772B1FEFAC0081F75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6C8DE782B1FEFAC0081F75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D6C8DE7A2B1FEFAC0081F75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MockTaobao/MockTaobao.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MockTaobao/Preview Content\"";
+				DEVELOPMENT_TEAM = 355Y8J4TGX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuotwang.MockTaobao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6C8DE7B2B1FEFAC0081F75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MockTaobao/MockTaobao.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MockTaobao/Preview Content\"";
+				DEVELOPMENT_TEAM = 355Y8J4TGX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuotwang.MockTaobao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6C8DE7D2B1FEFAC0081F75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 355Y8J4TGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuotwang.MockTaobaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockTaobao.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MockTaobao";
+			};
+			name = Debug;
+		};
+		D6C8DE7E2B1FEFAC0081F75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 355Y8J4TGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuotwang.MockTaobaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockTaobao.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MockTaobao";
+			};
+			name = Release;
+		};
+		D6C8DE802B1FEFAC0081F75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 355Y8J4TGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuotwang.MockTaobaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockTaobao;
+			};
+			name = Debug;
+		};
+		D6C8DE812B1FEFAC0081F75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 355Y8J4TGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuotwang.MockTaobaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockTaobao;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6C8DE4F2B1FEFAA0081F75C /* Build configuration list for PBXProject "MockTaobao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C8DE772B1FEFAC0081F75C /* Debug */,
+				D6C8DE782B1FEFAC0081F75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C8DE792B1FEFAC0081F75C /* Build configuration list for PBXNativeTarget "MockTaobao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C8DE7A2B1FEFAC0081F75C /* Debug */,
+				D6C8DE7B2B1FEFAC0081F75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C8DE7C2B1FEFAC0081F75C /* Build configuration list for PBXNativeTarget "MockTaobaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C8DE7D2B1FEFAC0081F75C /* Debug */,
+				D6C8DE7E2B1FEFAC0081F75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C8DE7F2B1FEFAC0081F75C /* Build configuration list for PBXNativeTarget "MockTaobaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C8DE802B1FEFAC0081F75C /* Debug */,
+				D6C8DE812B1FEFAC0081F75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C8DE4C2B1FEFAA0081F75C /* Project object */;
+}
