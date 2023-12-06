@@ -1,0 +1,42 @@
+PODS:
+  - libwebp (1.3.2):
+    - libwebp/demux (= 1.3.2)
+    - libwebp/mux (= 1.3.2)
+    - libwebp/sharpyuv (= 1.3.2)
+    - libwebp/webp (= 1.3.2)
+  - libwebp/demux (1.3.2):
+    - libwebp/webp
+  - libwebp/mux (1.3.2):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.3.2)
+  - libwebp/webp (1.3.2):
+    - libwebp/sharpyuv
+  - SDWebImage (5.18.3):
+    - SDWebImage/Core (= 5.18.3)
+  - SDWebImage/Core (5.18.3)
+  - SDWebImageSwiftUI (3.0.0-beta.3):
+    - SDWebImage (~> 5.10)
+  - SDWebImageWebPCoder (0.14.1):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.17)
+
+DEPENDENCIES:
+  - SDWebImageSwiftUI (= 3.0.0-beta.3)
+  - SDWebImageWebPCoder
+
+SPEC REPOS:
+  trunk:
+    - libwebp
+    - SDWebImage
+    - SDWebImageSwiftUI
+    - SDWebImageWebPCoder
+
+SPEC CHECKSUMS:
+  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
+  SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
+  SDWebImageSwiftUI: b1d1fcaf8b6c152a0283be4bf4cca5796dc165dc
+  SDWebImageWebPCoder: eb7970094ac1401eb4c8a1cd077f472dbc66497b
+
+PODFILE CHECKSUM: 2d2a42c71120466bb83a7a4a67c8cf8b2c7117c7
+
+COCOAPODS: 1.14.3

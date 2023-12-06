@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65D6260652E7E573EA995CDD /* Pods_MockTaobao_MockTaobaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A07D66F1793A8F078AB119 /* Pods_MockTaobao_MockTaobaoUITests.framework */; };
+		753BF86FC6ADFC3F3B9603DF /* Pods_MockTaobao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20F2D4793F0CB467A24D2B1 /* Pods_MockTaobao.framework */; };
+		B5D9BF0416BB5BFCA4FCD401 /* Pods_MockTaobaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4379F45FBA836FF3EE4E7BB8 /* Pods_MockTaobaoTests.framework */; };
 		D6C8DE582B1FEFAA0081F75C /* MockTaobaoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE572B1FEFAA0081F75C /* MockTaobaoApp.swift */; };
-		D6C8DE5A2B1FEFAA0081F75C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE592B1FEFAA0081F75C /* ContentView.swift */; };
+		D6C8DE5A2B1FEFAA0081F75C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE592B1FEFAA0081F75C /* MainView.swift */; };
 		D6C8DE5C2B1FEFAB0081F75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C8DE5B2B1FEFAB0081F75C /* Assets.xcassets */; };
 		D6C8DE602B1FEFAB0081F75C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C8DE5F2B1FEFAB0081F75C /* Preview Assets.xcassets */; };
 		D6C8DE6A2B1FEFAC0081F75C /* MockTaobaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE692B1FEFAC0081F75C /* MockTaobaoTests.swift */; };
 		D6C8DE742B1FEFAC0081F75C /* MockTaobaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE732B1FEFAC0081F75C /* MockTaobaoUITests.swift */; };
 		D6C8DE762B1FEFAC0081F75C /* MockTaobaoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE752B1FEFAC0081F75C /* MockTaobaoUITestsLaunchTests.swift */; };
+		D6C8DE852B1FEFE20081F75C /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE842B1FEFE20081F75C /* SubscriptionView.swift */; };
+		D6C8DE872B1FEFFC0081F75C /* RecommendationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE862B1FEFFC0081F75C /* RecommendationView.swift */; };
+		D6C8DE8B2B1FF81D0081F75C /* MainViewTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE8A2B1FF81D0081F75C /* MainViewTabBar.swift */; };
+		D6C8DE8D2B1FF8E40081F75C /* MainTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE8C2B1FF8E40081F75C /* MainTabBarButton.swift */; };
+		D6C8DE8F2B1FFAF20081F75C /* MainIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE8E2B1FFAF20081F75C /* MainIconButton.swift */; };
+		D6C8DE932B204C270081F75C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE922B204C270081F75C /* SearchBar.swift */; };
+		D6C8DE952B20536B0081F75C /* TypeTabsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE942B20536B0081F75C /* TypeTabsScrollView.swift */; };
+		D6C8DE982B2057D70081F75C /* MiniAppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE972B2057D70081F75C /* MiniAppData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4379F45FBA836FF3EE4E7BB8 /* Pods_MockTaobaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockTaobaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48926817CD57F719243E11BB /* Pods-MockTaobaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockTaobaoTests.release.xcconfig"; path = "Target Support Files/Pods-MockTaobaoTests/Pods-MockTaobaoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5ED71A17E8F03507CCBB000F /* Pods-MockTaobao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockTaobao.release.xcconfig"; path = "Target Support Files/Pods-MockTaobao/Pods-MockTaobao.release.xcconfig"; sourceTree = "<group>"; };
+		64D420870F27D2C3F72CEC80 /* Pods-MockTaobao-MockTaobaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockTaobao-MockTaobaoUITests.debug.xcconfig"; path = "Target Support Files/Pods-MockTaobao-MockTaobaoUITests/Pods-MockTaobao-MockTaobaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B03FB7E4D1EDA1B884E167FF /* Pods-MockTaobao-MockTaobaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockTaobao-MockTaobaoUITests.release.xcconfig"; path = "Target Support Files/Pods-MockTaobao-MockTaobaoUITests/Pods-MockTaobao-MockTaobaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B20F2D4793F0CB467A24D2B1 /* Pods_MockTaobao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockTaobao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C8DE542B1FEFAA0081F75C /* MockTaobao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockTaobao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C8DE572B1FEFAA0081F75C /* MockTaobaoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTaobaoApp.swift; sourceTree = "<group>"; };
-		D6C8DE592B1FEFAA0081F75C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6C8DE592B1FEFAA0081F75C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D6C8DE5B2B1FEFAB0081F75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C8DE5D2B1FEFAB0081F75C /* MockTaobao.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MockTaobao.entitlements; sourceTree = "<group>"; };
 		D6C8DE5F2B1FEFAB0081F75C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +62,17 @@
 		D6C8DE6F2B1FEFAC0081F75C /* MockTaobaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockTaobaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C8DE732B1FEFAC0081F75C /* MockTaobaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTaobaoUITests.swift; sourceTree = "<group>"; };
 		D6C8DE752B1FEFAC0081F75C /* MockTaobaoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTaobaoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6C8DE842B1FEFE20081F75C /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		D6C8DE862B1FEFFC0081F75C /* RecommendationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationView.swift; sourceTree = "<group>"; };
+		D6C8DE8A2B1FF81D0081F75C /* MainViewTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewTabBar.swift; sourceTree = "<group>"; };
+		D6C8DE8C2B1FF8E40081F75C /* MainTabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarButton.swift; sourceTree = "<group>"; };
+		D6C8DE8E2B1FFAF20081F75C /* MainIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIconButton.swift; sourceTree = "<group>"; };
+		D6C8DE922B204C270081F75C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		D6C8DE942B20536B0081F75C /* TypeTabsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeTabsScrollView.swift; sourceTree = "<group>"; };
+		D6C8DE972B2057D70081F75C /* MiniAppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAppData.swift; sourceTree = "<group>"; };
+		E42201F409D9C08686602230 /* Pods-MockTaobaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockTaobaoTests.debug.xcconfig"; path = "Target Support Files/Pods-MockTaobaoTests/Pods-MockTaobaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3A07D66F1793A8F078AB119 /* Pods_MockTaobao_MockTaobaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockTaobao_MockTaobaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43E14AFAE34E7E67BEB768D /* Pods-MockTaobao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockTaobao.debug.xcconfig"; path = "Target Support Files/Pods-MockTaobao/Pods-MockTaobao.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753BF86FC6ADFC3F3B9603DF /* Pods_MockTaobao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D9BF0416BB5BFCA4FCD401 /* Pods_MockTaobaoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D6260652E7E573EA995CDD /* Pods_MockTaobao_MockTaobaoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A4E16A04BFACE5E1CBFABBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B20F2D4793F0CB467A24D2B1 /* Pods_MockTaobao.framework */,
+				F3A07D66F1793A8F078AB119 /* Pods_MockTaobao_MockTaobaoUITests.framework */,
+				4379F45FBA836FF3EE4E7BB8 /* Pods_MockTaobaoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		886A945BB2F28069F74BA7E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F43E14AFAE34E7E67BEB768D /* Pods-MockTaobao.debug.xcconfig */,
+				5ED71A17E8F03507CCBB000F /* Pods-MockTaobao.release.xcconfig */,
+				64D420870F27D2C3F72CEC80 /* Pods-MockTaobao-MockTaobaoUITests.debug.xcconfig */,
+				B03FB7E4D1EDA1B884E167FF /* Pods-MockTaobao-MockTaobaoUITests.release.xcconfig */,
+				E42201F409D9C08686602230 /* Pods-MockTaobaoTests.debug.xcconfig */,
+				48926817CD57F719243E11BB /* Pods-MockTaobaoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D6C8DE4B2B1FEFAA0081F75C = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +133,8 @@
 				D6C8DE682B1FEFAC0081F75C /* MockTaobaoTests */,
 				D6C8DE722B1FEFAC0081F75C /* MockTaobaoUITests */,
 				D6C8DE552B1FEFAA0081F75C /* Products */,
+				886A945BB2F28069F74BA7E2 /* Pods */,
+				1A4E16A04BFACE5E1CBFABBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +151,11 @@
 		D6C8DE562B1FEFAA0081F75C /* MockTaobao */ = {
 			isa = PBXGroup;
 			children = (
+				D6C8DE892B1FF80B0081F75C /* TopTab */,
+				D6C8DE832B1FEFD10081F75C /* Recommendation */,
+				D6C8DE822B1FEFC50081F75C /* Subscription */,
 				D6C8DE572B1FEFAA0081F75C /* MockTaobaoApp.swift */,
-				D6C8DE592B1FEFAA0081F75C /* ContentView.swift */,
+				D6C8DE592B1FEFAA0081F75C /* MainView.swift */,
 				D6C8DE5B2B1FEFAB0081F75C /* Assets.xcassets */,
 				D6C8DE5D2B1FEFAB0081F75C /* MockTaobao.entitlements */,
 				D6C8DE5E2B1FEFAB0081F75C /* Preview Content */,
@@ -129,6 +188,43 @@
 			path = MockTaobaoUITests;
 			sourceTree = "<group>";
 		};
+		D6C8DE822B1FEFC50081F75C /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8DE842B1FEFE20081F75C /* SubscriptionView.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		D6C8DE832B1FEFD10081F75C /* Recommendation */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8DE862B1FEFFC0081F75C /* RecommendationView.swift */,
+				D6C8DE922B204C270081F75C /* SearchBar.swift */,
+				D6C8DE942B20536B0081F75C /* TypeTabsScrollView.swift */,
+				D6C8DE962B2057860081F75C /* MiniAppScrollView */,
+			);
+			path = Recommendation;
+			sourceTree = "<group>";
+		};
+		D6C8DE892B1FF80B0081F75C /* TopTab */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8DE8A2B1FF81D0081F75C /* MainViewTabBar.swift */,
+				D6C8DE8E2B1FFAF20081F75C /* MainIconButton.swift */,
+				D6C8DE8C2B1FF8E40081F75C /* MainTabBarButton.swift */,
+			);
+			path = TopTab;
+			sourceTree = "<group>";
+		};
+		D6C8DE962B2057860081F75C /* MiniAppScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8DE972B2057D70081F75C /* MiniAppData.swift */,
+			);
+			path = MiniAppScrollView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6C8DE792B1FEFAC0081F75C /* Build configuration list for PBXNativeTarget "MockTaobao" */;
 			buildPhases = (
+				D7E242276BC427684949D6E3 /* [CP] Check Pods Manifest.lock */,
 				D6C8DE502B1FEFAA0081F75C /* Sources */,
 				D6C8DE512B1FEFAA0081F75C /* Frameworks */,
 				D6C8DE522B1FEFAA0081F75C /* Resources */,
+				F471F037726FBCB2BEEFE6E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6C8DE7C2B1FEFAC0081F75C /* Build configuration list for PBXNativeTarget "MockTaobaoTests" */;
 			buildPhases = (
+				B5AB73027FE9522C9EC59502 /* [CP] Check Pods Manifest.lock */,
 				D6C8DE612B1FEFAC0081F75C /* Sources */,
 				D6C8DE622B1FEFAC0081F75C /* Frameworks */,
 				D6C8DE632B1FEFAC0081F75C /* Resources */,
@@ -171,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6C8DE7F2B1FEFAC0081F75C /* Build configuration list for PBXNativeTarget "MockTaobaoUITests" */;
 			buildPhases = (
+				BDFBC8358F11FECA8DF999A6 /* [CP] Check Pods Manifest.lock */,
 				D6C8DE6B2B1FEFAC0081F75C /* Sources */,
 				D6C8DE6C2B1FEFAC0081F75C /* Frameworks */,
 				D6C8DE6D2B1FEFAC0081F75C /* Resources */,
+				18A049AED140BB59BD1CF73E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +355,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18A049AED140BB59BD1CF73E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MockTaobao-MockTaobaoUITests/Pods-MockTaobao-MockTaobaoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MockTaobao-MockTaobaoUITests/Pods-MockTaobao-MockTaobaoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MockTaobao-MockTaobaoUITests/Pods-MockTaobao-MockTaobaoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5AB73027FE9522C9EC59502 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MockTaobaoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDFBC8358F11FECA8DF999A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MockTaobao-MockTaobaoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E242276BC427684949D6E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MockTaobao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F471F037726FBCB2BEEFE6E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MockTaobao/Pods-MockTaobao-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MockTaobao/Pods-MockTaobao-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MockTaobao/Pods-MockTaobao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6C8DE502B1FEFAA0081F75C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C8DE5A2B1FEFAA0081F75C /* ContentView.swift in Sources */,
+				D6C8DE5A2B1FEFAA0081F75C /* MainView.swift in Sources */,
+				D6C8DE952B20536B0081F75C /* TypeTabsScrollView.swift in Sources */,
+				D6C8DE982B2057D70081F75C /* MiniAppData.swift in Sources */,
 				D6C8DE582B1FEFAA0081F75C /* MockTaobaoApp.swift in Sources */,
+				D6C8DE8B2B1FF81D0081F75C /* MainViewTabBar.swift in Sources */,
+				D6C8DE852B1FEFE20081F75C /* SubscriptionView.swift in Sources */,
+				D6C8DE8F2B1FFAF20081F75C /* MainIconButton.swift in Sources */,
+				D6C8DE932B204C270081F75C /* SearchBar.swift in Sources */,
+				D6C8DE8D2B1FF8E40081F75C /* MainTabBarButton.swift in Sources */,
+				D6C8DE872B1FEFFC0081F75C /* RecommendationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +546,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -395,7 +607,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -413,6 +625,7 @@
 		};
 		D6C8DE7A2B1FEFAC0081F75C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43E14AFAE34E7E67BEB768D /* Pods-MockTaobao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,7 +655,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shuotwang.MockTaobao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,6 +665,7 @@
 		};
 		D6C8DE7B2B1FEFAC0081F75C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED71A17E8F03507CCBB000F /* Pods-MockTaobao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,7 +695,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shuotwang.MockTaobao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -489,6 +705,7 @@
 		};
 		D6C8DE7D2B1FEFAC0081F75C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42201F409D9C08686602230 /* Pods-MockTaobaoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +729,7 @@
 		};
 		D6C8DE7E2B1FEFAC0081F75C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48926817CD57F719243E11BB /* Pods-MockTaobaoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +753,7 @@
 		};
 		D6C8DE802B1FEFAC0081F75C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D420870F27D2C3F72CEC80 /* Pods-MockTaobao-MockTaobaoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +776,7 @@
 		};
 		D6C8DE812B1FEFAC0081F75C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03FB7E4D1EDA1B884E167FF /* Pods-MockTaobao-MockTaobaoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
