@@ -11,7 +11,7 @@ import SwiftUI
 struct MockTaobaoApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            MainPageView().preferredColorScheme(.light)
         }
     }
 }

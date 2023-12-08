@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MainViewTabBar: View {
+struct TaoPageTabBar: View {
     
     @Binding
     var selectedTab: Int
@@ -41,5 +41,5 @@ struct MainViewTabBar: View {
 }
 
 #Preview {
-    MainViewTabBar(selectedTab: .constant(0))
+    TaoPageTabBar(selectedTab: .constant(0))
 }

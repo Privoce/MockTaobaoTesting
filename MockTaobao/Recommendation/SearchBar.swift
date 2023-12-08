@@ -37,10 +37,9 @@ struct SearchBar: View {
         }
         .padding(.leading, 10)
         .padding(.trailing, 2)
-        .frame(width: .infinity, height: 28)
+        .frame(width: UIScreen.main
+            .bounds.width, height: 28)
         .overlay(RoundedRectangle(cornerRadius: 16).stroke(.orange, lineWidth: 2))
-//        .border(.orange, width: 2)
-//        .cornerRadius(12)
     }
 }
 

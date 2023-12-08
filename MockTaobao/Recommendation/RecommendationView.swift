@@ -11,8 +11,9 @@ struct RecommendationView: View {
     var body: some View {
         ScrollView(.vertical) {
             VStack {
-               
                 TypeTabsScrollView()
+                MiniAppScrollView(scrollBarWidth: 100)
+                ItemGridView()
             }
         }
        
