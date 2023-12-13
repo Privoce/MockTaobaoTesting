@@ -206,7 +206,6 @@
 			isa = PBXGroup;
 			children = (
 				D6C8DEB32B22AF730081F75C /* Detail */,
-				D6C8DE892B1FF80B0081F75C /* TopTab */,
 				D6C8DE832B1FEFD10081F75C /* Recommendation */,
 				D6C8DE822B1FEFC50081F75C /* Subscription */,
 				D6C8DE572B1FEFAA0081F75C /* MockTaobaoApp.swift */,
@@ -259,6 +258,7 @@
 		D6C8DE832B1FEFD10081F75C /* Recommendation */ = {
 			isa = PBXGroup;
 			children = (
+				D6C8DE892B1FF80B0081F75C /* TopTab */,
 				D6C8DE9B2B21A0E10081F75C /* ItemGridView */,
 				D6C8DE862B1FEFFC0081F75C /* RecommendationView.swift */,
 				D6C8DE922B204C270081F75C /* SearchBar.swift */,
@@ -784,7 +784,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shuotwang.MockTaobao;
+				PRODUCT_BUNDLE_IDENTIFIER = com.privoce.MockTaobao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -824,7 +824,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shuotwang.MockTaobao;
+				PRODUCT_BUNDLE_IDENTIFIER = com.privoce.MockTaobao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

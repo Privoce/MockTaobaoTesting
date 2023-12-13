@@ -20,18 +20,19 @@ struct VideoView: View {
         
         VideoPlayer(player: player)
             .onAppear {
-//                if let url = Bundle.main.url(forResource: videoName, withExtension: "mp4") {
-//                    self.player = AVPlayer(url: url)
-//                    
-//                    NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: self.player?.currentItem, queue: .main) { _ in
-//                        self.player?.seek(to: CMTime.zero)
-//                        self.player?.play()
-//                    }
-//                    
-//                    self.player?.play()
-//                }
+                if let url = Bundle.main.url(forResource: videoName, withExtension: "mp4") {
+                    self.player = AVPlayer(url: url)
+                    
+                    NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: self.player?.currentItem, queue: .main) { _ in
+                        self.player?.seek(to: CMTime.zero)
+                        self.player?.play()
+                    }
+                    
+                    self.player?.play()
+                }
             }
             .onDisappear {
+                self.player?.pause()
                 NotificationCenter.default.removeObserver(self)
             }
     }

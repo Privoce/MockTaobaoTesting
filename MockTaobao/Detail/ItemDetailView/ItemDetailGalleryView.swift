@@ -18,29 +18,36 @@ struct ItemDetailGalleryView: View {
     ]
     
     var body: some View {
-        ZStack(alignment: .bottom) {
-            TabView(selection: $currentIndex) {
-                ForEach(galleryItems.indices, id: \.self) { index in
-                    GalleryItemView(item: galleryItems[index])
-                    
-                        .tag(index)
-                }
-            }
-            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
-            .onAppear {
-                UIPageControl.appearance().currentPageIndicatorTintColor = .clear
-                UIPageControl.appearance().pageIndicatorTintColor = .clear
-            }
+       
+        LazyVStack {
             
-            HStack(spacing: 8) {
-                ForEach(galleryItems.indices, id: \.self) { index in
-                    Capsule()
-                        .frame(width: index == currentIndex ? 20 : 8, height: 8)
-                        .foregroundColor(index == currentIndex ? .orange : .gray)
-                }
+            ZStack(alignment: .bottom) {
+                    TabView(selection: $currentIndex) {
+                        ForEach(galleryItems.indices, id: \.self) { index in
+                            GalleryItemView(item: galleryItems[index])
+                                .tag(index)
+                        }
+                    }
+                    .tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
+                    .onAppear {
+                        UIPageControl.appearance().currentPageIndicatorTintColor = .clear
+                        UIPageControl.appearance().pageIndicatorTintColor = .clear
+                    }
+                    
+                    HStack(spacing: 8) {
+                        ForEach(galleryItems.indices, id: \.self) { index in
+                            Capsule()
+                                .frame(width: index == currentIndex ? 20 : 8, height: 8)
+                                .foregroundColor(index == currentIndex ? .orange : .gray)
+                        }
+                    }
+                    .padding()
             }
-            .padding()
+            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width
+            )
         }
+           
+        
     }
 }
 
@@ -68,6 +75,8 @@ struct GalleryItemView: View {
                     self.player?.pause()
                 }
                 .aspectRatio(contentMode: .fill)
+            
+                
                 
                 
         }

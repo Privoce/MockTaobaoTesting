@@ -11,6 +11,7 @@ struct ItemGalleryView: View {
     let photos = ["photo30", "photo42", "photo50"]
     
     @State private var currentIndex = 0
+    @State private var timer: Timer?
     
     var body: some View {
         ZStack(alignment: .bottom) {
@@ -40,17 +41,25 @@ struct ItemGalleryView: View {
         .onAppear {
             startTimer()
         }
+        .onDisappear {
+            endTimer()
+        }
         .aspectRatio(2, contentMode: .fill)
     }
     
     private func startTimer() {
-            Timer.scheduledTimer(withTimeInterval: 3, repeats: true) { timer in
+        timer = Timer.scheduledTimer(withTimeInterval: 3, repeats: true) { timer in
                 withAnimation {
                     currentIndex = (currentIndex + 1) % photos.count
                 }
                 
             }
         }
+    
+    private func endTimer() {
+        timer?.invalidate()
+        timer = nil
+    }
 }
 
 
