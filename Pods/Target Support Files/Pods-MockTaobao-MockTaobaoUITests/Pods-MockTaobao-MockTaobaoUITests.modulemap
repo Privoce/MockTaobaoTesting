@@ -1,6 +1,0 @@
-framework module Pods_MockTaobao_MockTaobaoUITests {
-  umbrella header "Pods-MockTaobao-MockTaobaoUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
