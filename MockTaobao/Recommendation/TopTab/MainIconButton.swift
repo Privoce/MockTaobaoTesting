@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SDWebImageWebPCoder
 import SDWebImageSwiftUI
 
 struct MainIconButton: View {
