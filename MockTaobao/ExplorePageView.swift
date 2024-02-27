@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ExplorePageView: View {
+    @EnvironmentObject private var userSettings: UserSettings
+    
     var body: some View {
         VStack {
             Text("负载开关")
@@ -15,10 +17,10 @@ struct ExplorePageView: View {
             Toggle("not in use", isOn: .constant(false))
             Toggle("not in use", isOn: .constant(false))
             Toggle("not in use", isOn: .constant(false))
-            Toggle("启动网络图片、首页视频、gif图", isOn: .constant(true))
             Toggle("not in use", isOn: .constant(false))
-            
-            Text("注意：修改设置后退出应用，重新启动生效")
+//            Toggle("启动网络图片、首页视频、gif图", isOn: .constant(true))
+            Toggle("not in use", isOn: .constant(false))
+            Toggle("启用主页示例视频", isOn: $userSettings.enableMainPageVideo)
         }
     
     }

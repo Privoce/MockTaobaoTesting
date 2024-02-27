@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ItemGridViewModel: ObservableObject {
+class ItemGridViewModel: ObservableObject {    
     
     @Published var items: [ItemGridItemData] = itemGridItems
     
@@ -44,6 +44,10 @@ struct ItemGridItemData: Hashable {
     var price: Int
     var numOfPeoplePaid: Int
 }
+
+let staticImageItem: ItemGridItemData = ItemGridItemData(
+    imageName: "photo26",
+    title: "商品描述2 商品描述2 商品描述2 ", price: 2345, numOfPeoplePaid: 234)
 
 let itemGridItems: [ItemGridItemData] = [
     ItemGridItemData(

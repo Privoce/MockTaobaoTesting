@@ -12,6 +12,7 @@ struct MockTaobaoApp: App {
     var body: some Scene {
         WindowGroup {
             MainPageView().preferredColorScheme(.light)
+                .environmentObject(UserSettings(enableMainPageVideo: false))
         }
     }
 }

@@ -10,6 +10,7 @@
 		5F14ACABC3C085E6840B41E2 /* Pods_MockTaobao_MockTaobaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AC21C066C122EABEB88A81 /* Pods_MockTaobao_MockTaobaoUITests.framework */; };
 		86078C1A947981B998235EBC /* Pods_MockTaobao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DACCD98419B544CE41DBB7C /* Pods_MockTaobao.framework */; };
 		AEF79E46D0040ED915D55149 /* Pods_MockTaobaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3492B9EFC2728F7BD9176C61 /* Pods_MockTaobaoTests.framework */; };
+		D607FEC52B8E134B0097D478 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D607FEC42B8E134B0097D478 /* UserSettings.swift */; };
 		D6AB81FD2B22F7F90081AB8F /* CartPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AB81FC2B22F7F90081AB8F /* CartPageView.swift */; };
 		D6AB81FF2B22F80A0081AB8F /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AB81FE2B22F80A0081AB8F /* MyPageView.swift */; };
 		D6C8DE582B1FEFAA0081F75C /* MockTaobaoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8DE572B1FEFAA0081F75C /* MockTaobaoApp.swift */; };
@@ -81,6 +82,7 @@
 		A0EC21D9AF10A6E50751D2E6 /* Pods-MockTaobao-MockTaobaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockTaobao-MockTaobaoUITests.debug.xcconfig"; path = "Target Support Files/Pods-MockTaobao-MockTaobaoUITests/Pods-MockTaobao-MockTaobaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B143F5D69E550D0EEF322F23 /* Pods-MockTaobao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockTaobao.debug.xcconfig"; path = "Target Support Files/Pods-MockTaobao/Pods-MockTaobao.debug.xcconfig"; sourceTree = "<group>"; };
 		CC1247FB516766A0258F9B27 /* Pods-MockTaobao-MockTaobaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockTaobao-MockTaobaoUITests.release.xcconfig"; path = "Target Support Files/Pods-MockTaobao-MockTaobaoUITests/Pods-MockTaobao-MockTaobaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D607FEC42B8E134B0097D478 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		D6AB81FC2B22F7F90081AB8F /* CartPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPageView.swift; sourceTree = "<group>"; };
 		D6AB81FE2B22F80A0081AB8F /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
 		D6C8DE542B1FEFAA0081F75C /* MockTaobao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockTaobao.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,6 +210,7 @@
 				D6C8DE5B2B1FEFAB0081F75C /* Assets.xcassets */,
 				D6C8DE5D2B1FEFAB0081F75C /* MockTaobao.entitlements */,
 				D6C8DE5E2B1FEFAB0081F75C /* Preview Content */,
+				D607FEC42B8E134B0097D478 /* UserSettings.swift */,
 			);
 			path = MockTaobao;
 			sourceTree = "<group>";
@@ -583,6 +586,7 @@
 				D6C8DE582B1FEFAA0081F75C /* MockTaobaoApp.swift in Sources */,
 				D6C8DEC42B22D64C0081F75C /* ItemDetailBottomBar.swift in Sources */,
 				D6C8DE9D2B21A0FA0081F75C /* ItemGridView.swift in Sources */,
+				D607FEC52B8E134B0097D478 /* UserSettings.swift in Sources */,
 				D6C8DE8B2B1FF81D0081F75C /* TaoPageTabBar.swift in Sources */,
 				D6C8DE852B1FEFE20081F75C /* SubscriptionView.swift in Sources */,
 				D6C8DE8F2B1FFAF20081F75C /* MainIconButton.swift in Sources */,

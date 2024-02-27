@@ -11,6 +11,8 @@ import AVKit
 struct ItemGridTile: View {
     
     var data: ItemGridItemData
+    @EnvironmentObject private var userSettings: UserSettings
+    
     
     var body: some View {
         NavigationLink {
@@ -22,7 +24,10 @@ struct ItemGridTile: View {
                 Image(data.imageName!)
                     .resizable()
             }else if (data.videoName != nil) {
-                VideoView(videoName: data.videoName!, videoExtension: "mp4")
+                if (userSettings.enableMainPageVideo) {
+                    VideoView(videoName: data.videoName!, videoExtension: "mp4")}else {
+                        Image(staticImageItem.imageName!).resizable()
+                    }
             }else {
                 Text("No Image")
             }

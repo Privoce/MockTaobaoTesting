@@ -18,6 +18,7 @@ enum MainPageTab {
 struct MainPageView: View {
     
     @State private var selectedTab: MainPageTab = .home
+    
 
     
     var body: some View {
